@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop clothing, accessories and fragrances.">
+  <title>J. — Clothing & Lifestyle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">Complimentary delivery on orders above Rs. 5,000 <a href="#collections">SHOP NOW</a></div>
+  <header class="site-header">
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">☰</button>
+    <a class="wordmark" href="shop.html">J<span>.</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#new-arrivals">NEW ARRIVALS</a>
+      <a href="#women">WOMEN</a>
+      <a href="#men">MEN</a>
+      <a href="#kids">KIDS</a>
+      <a href="#fragrance">FRAGRANCES</a>
+      <a href="#sale">SALE</a>
+    </nav>
+    <div class="header-actions">
+      <button class="text-action" id="search-toggle" aria-label="Show search">⌕ <span>SEARCH</span></button>
+      <button class="text-action cart-action" aria-label="Shopping bag">♧ <span>BAG</span> <b id="cart-count">0</b></button>
+    </div>
+  </header>
+  <div class="search-bar" id="search-bar"><input type="search" placeholder="Search collections..." aria-label="Search collections"><button id="search-close">CLOSE</button></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-copy">
+        <p class="eyebrow eyebrow-light">THE NEW SEASON EDIT</p>
+        <h1>Everyday style.<br><em>Extraordinary you.</em></h1>
+        <p>Explore the latest looks, made for the moments that matter.</p>
+        <a class="button button-light" href="#new-arrivals">EXPLORE COLLECTION <span>↗</span></a>
+      </div>
+      <div class="hero-index">01 <span>/</span> 03</div>
+    </section>
+
+    <section class="intro section-wrap" id="new-arrivals">
+      <p class="eyebrow">CURATED FOR YOU</p>
+      <h2>New season, new stories.</h2>
+      <p>Discover fresh arrivals and timeless pieces for every wardrobe.</p>
+      <div class="category-pills">
+        <a href="#women">WOMEN</a><a href="#men">MEN</a><a href="#kids">KIDS</a><a href="#fragrance">FRAGRANCES</a>
+      </div>
+    </section>
+
+    <section class="editorial-grid section-wrap" id="collections">
+      <a class="editorial-card editorial-large" href="#women">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=85" alt="Women fashion collection">
+        <span class="editorial-label"><small>THE LATEST EDIT</small><strong>New for her</strong><b>DISCOVER ↗</b></span>
+      </a>
+      <a class="editorial-card" href="#men">
+        <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=900&q=85" alt="Men fashion collection">
+        <span class="editorial-label"><small>TIMELESS STYLE</small><strong>Modern classics</strong><b>DISCOVER ↗</b></span>
+      </a>
+      <a class="editorial-card" href="#fragrance">
+        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85" alt="Perfume bottle">
+        <span class="editorial-label"><small>SCENT OF THE SEASON</small><strong>Find your signature</strong><b>DISCOVER ↗</b></span>
+      </a>
+    </section>
+
+    <section class="shop-section section-wrap" id="women">
+      <div class="section-heading"><div><p class="eyebrow">THE WOMEN'S EDIT</p><h2>Made to be remembered.</h2></div><a class="underlined-link" href="#collections">VIEW ALL ↗</a></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=85" alt="Women's neutral outfit"><button class="quick-add">＋ QUICK ADD</button></div><p class="product-type">READY TO WEAR</p><h3>Everyday elegance</h3><p class="price">Explore collection</p></article>
+        <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=85" alt="Traditional women's outfit"><button class="quick-add">＋ QUICK ADD</button></div><p class="product-type">UNSTITCHED</p><h3>Heritage prints</h3><p class="price">Explore collection</p></article>
+        <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=85" alt="Women's handbag"><button class="quick-add">＋ QUICK ADD</button></div><p class="product-type">ACCESSORIES</p><h3>The finishing touch</h3><p class="price">Explore collection</p></article>
+        <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=700&q=85" alt="Fashion clothing on display"><button class="quick-add">＋ QUICK ADD</button></div><p class="product-type">SEASONAL EDIT</p><h3>New season layers</h3><p class="price">Explore collection</p></article>
+      </div>
+    </section>
+
+    <section class="split-banner" id="men">
+      <div class="split-image"></div><div class="split-copy"><p class="eyebrow">THE MEN'S COLLECTION</p><h2>Effortless.<br><em>Distinctive.</em></h2><p>From everyday essentials to occasion wear, find pieces that feel unmistakably you.</p><a class="button button-dark" href="#kids">EXPLORE MEN <span>↗</span></a></div>
+    </section>
+
+    <section class="shop-section section-wrap" id="kids">
+      <div class="section-heading"><div><p class="eyebrow">LITTLE MOMENTS, BIG STYLE</p><h2>For the next generation.</h2></div><a class="underlined-link" href="#kids">VIEW COLLECTION ↗</a></div>
+      <div class="kids-banner"><img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=1600&q=85" alt="Children's fashion"><div><p class="eyebrow eyebrow-light">BOYS & GIRLS</p><h2>Made for every adventure.</h2><a class="button button-light" href="#newsletter">DISCOVER MORE ↗</a></div></div>
+    </section>
+
+    <section class="fragrance-band" id="fragrance"><p class="eyebrow eyebrow-light">A LASTING IMPRESSION</p><h2>Find a fragrance<br><em>that feels like you.</em></h2><a class="button button-light" href="#newsletter">EXPLORE FRAGRANCES ↗</a></section>
+
+    <section class="newsletter" id="newsletter"><p class="eyebrow">STAY IN THE KNOW</p><h2>A little note from J.</h2><p>Be first to discover new arrivals, exclusive previews and special offers.</p><form id="newsletter-form"><input type="email" placeholder="Your email address" required><button type="submit">SIGN ME UP ↗</button></form><small id="newsletter-message" aria-live="polite"></small></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top"><a class="wordmark wordmark-light" href="shop.html">J<span>.</span></a><p>Style for every story.</p></div>
+    <div class="footer-columns"><div><h3>NEED HELP?</h3><a href="mailto:eshop@junaidjamshed.com">Contact customer care</a><a href="#">Delivery & orders</a><a href="#">Returns & exchanges</a></div><div><h3>ABOUT J.</h3><a href="#">Our story</a><a href="#">Store locator</a><a href="#">Careers</a></div><div><h3>FOLLOW ALONG</h3><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">Pinterest</a></div><div><h3>SHOPPING</h3><a href="#women">Women</a><a href="#men">Men</a><a href="#kids">Boys & girls</a></div></div>
+    <div class="footer-bottom"><span>© 2026 J. — ALL RIGHTS RESERVED</span><span>PRIVACY · TERMS · PAKISTAN / PKR</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
